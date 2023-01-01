@@ -14,5 +14,5 @@
 <hr>
 <참고>
 아래 영상을 보시면 어떻게 작동되는지 알 수 있습니다.<br>
-![image](https://user-images.githubusercontent.com/77737044/210165652-1c99b40b-5fe0-44df-89b2-1896327a7f85.png)
+![image](https://user-images.githubusercontent.com/77737044/210165660-452bbfcf-b24f-45f7-b222-a4ce62203d97.png)
 https://youtu.be/HR_xoc30NMU
