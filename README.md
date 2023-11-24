@@ -29,8 +29,20 @@
 <hr>
 
 ## 요구 사항 정의도
-
 ![image](https://github.com/EunSung98/hedgeHouse/assets/77737044/e4a15d96-a619-40e7-a690-b3c4c0bd044a)
+
+## 시스템 구성도
+![image](https://github.com/EunSung98/hedgeHouse/assets/77737044/d81bd979-f973-4218-b260-24495b2b6c94)
+◈ Data sensing
+- Arduino와 ESP32는 Serial 통신으로 데이터 송수신
+- esp32을 이용해 firebase에 센서 값을 전송
+◈ Database
+- 하드웨어에서 특정한 센서 값이나 부품 작동 여부 데이터를 Firebase에 저장
+◈ App
+- 케이지의 상태 확인 및 작동 조작: 사용자가 케이지와 앱과 관련된 데이터를 요구
+- 사용자 데이터 요구 및 데이터 수정 요구 : 로그인할 때 사용자가 맞는지 확인
+- 일기 등의 데이터는 firebase에 저장
+- 케이지 상태 시각화하여 전달 : 요청 받은 데이터를 알기 쉽게  그래프로 보여줌
 
 ## 서비스 흐름도
 ![image](https://github.com/EunSung98/hedgeHouse/assets/77737044/a4d5ef35-1b58-4fe6-9f89-65808c8ae12d)
