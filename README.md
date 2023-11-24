@@ -27,7 +27,9 @@
 - firebase 데이터를 그래프로 시각화 (기여도 : 50%)
 
 <hr>
-## 요구 사항 정의서
+
+## 요구 사항 정의도
+
 ![image](https://github.com/EunSung98/hedgeHouse/assets/77737044/e4a15d96-a619-40e7-a690-b3c4c0bd044a)
 
 ## 서비스 흐름도
